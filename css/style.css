@@ -95,6 +95,7 @@ h3{
 }
 
 img{
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -986,4 +987,223 @@ footer .barber-info__contact{
   padding-right: 100px;
   display: flex;
   max-width: 50%;
+}
+@media (max-width: 950px){
+  .product-list{
+    justify-content: center;
+  }
+
+  .product-image-container{
+    padding-right: 15px;
+    max-width: 350px;
+  }
+
+  .product-full-image li{
+    display: inline-block;
+  }
+
+  .product-thumbnail li{
+    display: inline-block;
+    max-width: 100px;
+    width: 100%;
+    min-width: inherit;
+  }
+
+  .barber-price .phrase-head:before,
+  .barber-price .phrase-head:after{
+    width: 10%;
+  }
+
+}
+
+@media (max-width: 920px){
+
+  .row-block section:first-of-type{
+    max-width: 300px;
+    padding-right: 20px;
+  }
+
+  .row-block section:last-of-type{
+    padding-left: 20px;
+  }
+
+  .booking-form__field.booking-form__field{
+    width: 130px;
+  }
+
+  .barber-info__buttons{
+    justify-content: space-between;
+  }
+
+  .barber-info__buttons *:first-child{
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  
+  .main-header{
+    position: relative;
+    min-height: 50px;
+  }
+
+  .main-header nav{
+    justify-content: space-between
+  }
+
+  .navigation-container{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #291d1d;
+    z-index: 2;
+    flex-direction: column;
+  }
+
+  .main-header .navigation-content{
+    flex-direction: column;
+  }
+
+  .main-header .site-navigation{
+    max-width: inherit;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main-header .site-navigation li{
+    width: 100%;
+  }
+
+  .main-header .site-navigation a{
+    border-bottom: 1px solid gray;
+    width: 100%;
+  }
+  .main-header li a{
+    padding: 10px;
+    padding-left: 40px;
+  }
+
+  .main-header .user-navigation{
+    max-width: 100%;
+  }
+
+  .breadcrumbs{
+    flex-direction: column;
+  }
+
+  .row-block:before{
+    display: none;
+  }
+
+  .feature-list{
+    display: block;
+    text-align: center;
+  }
+
+  .feature-list li{
+    display: inline-block;
+  }
+
+  .row-block{
+    flex-direction: column;    
+  }
+
+  .row-block.row-block section{
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 30px;
+  }
+
+  .news{
+    margin-bottom: 30px;
+  }
+
+  .news-item{
+    max-width: inherit;
+  }
+  
+  .booking-form__field.booking-form__field{
+    width: 47%;
+  }
+
+  /*catalog-page*/
+  .catalog-container{
+    flex-direction: column;
+  }
+
+  .pagination{
+    justify-content: center;
+  }
+
+  .left-sidebar{
+    max-width: 100%;
+  }
+
+  .filter-product{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .filter-product fieldset{
+    width: 48%;
+  }
+
+  .prduct-card-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-image-container{
+    max-width: inherit;
+  }
+
+  .product-information-container{
+    max-width: inherit;
+  }
+
+  .product-full-image li{
+    display: block;
+  }
+
+  .barber-price .phrase-head{
+    padding: 0 11%;
+  }
+
+
+}
+
+@media (max-width: 520px){
+
+  .barber-price .phrase-head{
+    font-size: 36px;
+  }
+
+  .price-use{
+    flex-direction: column;
+  }
+
+  .description-barbershop p{
+    padding-right: inherit;
+    max-width: 100%;
+  }
+
+  .price-service table{
+    margin-bottom: 30px;
+  }
+
+  .description-barbershop__content{
+    flex-direction: column;
+  }
+
+  .footer .container{
+    flex-direction: column;
+  
+  }
+}
+
+.burger-menu{
+  color: #fff;
 }
