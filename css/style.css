@@ -471,7 +471,7 @@ td, th{
   justify-content: space-between;
 }
 
-.main-page .main-header .navigation-container{
+.main-page1 .main-header .navigation-container{
   background: #000;
   min-height: 70px;
   width: 100%;
@@ -488,6 +488,7 @@ td, th{
 .main-header{
   display: flex;
   background: #000;
+  
 }
 
 .main-header nav{
@@ -1017,7 +1018,7 @@ td, th{
 
 @media (max-width: 920px){
 
-  body.fixed{
+  body.fixed.fixed{
     padding-right: 0;
   }
 
@@ -1051,7 +1052,6 @@ td, th{
   }
 
   .main-page .navigation-container, .navigation-container{
-    position: absolute;
     top: -200%;
     transition: .6s;
   }
