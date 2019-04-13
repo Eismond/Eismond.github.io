@@ -1017,6 +1017,10 @@ td, th{
 
 @media (max-width: 920px){
 
+  body.fixed{
+    padding: 0;
+  }
+
   .row-block section:first-of-type{
     max-width: 300px;
     padding-right: 20px;
